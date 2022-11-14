@@ -1,0 +1,22 @@
+{
+    "name": "bitfume/contact",
+    "description": "This will send email to admin and save query in db",
+    "type": "library",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Bitfume\\Contact\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Shubham123Rai",
+            "email": "shubham.rai@algoworks.com"
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    "require": {}
+}
