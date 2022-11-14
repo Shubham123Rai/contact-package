@@ -46,7 +46,7 @@ class ContactMailable extends Mailable
     public function content()
     {
         return new Content(
-            markdown: 'contact::contact.email',
+            markdown: 'cont::contact.email',
         );
     }
 
@@ -62,6 +62,6 @@ class ContactMailable extends Mailable
 
     public function build()
     {
-        return $this->markdown('contact::contact.email')->with(['message'=>$this->message, 'name'=>$this->name]);
+        return $this->markdown('cont::contact.email')->with(['message'=>$this->message, 'name'=>$this->name]);
     }
 }

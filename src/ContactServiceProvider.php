@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfume\Contact;
+namespace bitfume\contact;
 use Illuminate\Support\ServiceProvider;
 
 class ContactServiceProvider extends ServiceProvider

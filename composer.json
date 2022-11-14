@@ -1,5 +1,5 @@
 {
-    "name": "bitfume/contact",
+    "name": "bit/cont",
     "description": "This will send email to admin and save query in db",
     "type": "library",
     "license": "MIT",
